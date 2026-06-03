@@ -60,7 +60,7 @@ nav{
     border-radius: 50px;
     font-size: 15px;
     padding: 10px;
-    top: 0;
+    top:1px;
     z-index: 5;
    
 }
@@ -155,11 +155,7 @@ background-color: white;
  font-size: 12px;
  border: 2px rgb(255, 255, 255) solid;
  bottom: 5px;
- width: 85%;
-
- 
-
- 
+ width: 85%; 
 }
 
 
@@ -1106,6 +1102,15 @@ font-weight: none;
 
 }
 
+#second-ul{
+    background-color: red;
+    font-size: 10px;
+    padding: 15px 0 0 0;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+}
+
 #second-ul ul{
     background-color: white;
     padding:10px 0;
@@ -1114,6 +1119,8 @@ font-weight: none;
     width: 105%;
     margin: auto;
     border-radius: 5px;
+    font-size: 8px;
+   
 }
 
 .row .box-2 #circle{
@@ -1170,6 +1177,29 @@ font-size: 10px;
     font-size: 8px;
     color: red;
     padding-right: 1px;
+}
+
+
+.row .box-2 #image-text{
+background-color: white;
+ display: flex;
+ position: absolute;
+ justify-content: space-between;
+ border-radius: 30px;
+ padding: 1px;
+ text-align: center;
+ font-size: 8px;
+ border: 2px rgb(255, 255, 255) solid;
+ bottom: 5px;
+ width: 85%; 
+}
+
+#section8 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 8px;
+  
+   
 }
 
 }
