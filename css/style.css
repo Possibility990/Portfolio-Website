@@ -33,6 +33,7 @@
     padding: 7px;
    
 }
+
 nav li{
     display: inline;
     padding: 7px;
@@ -43,8 +44,11 @@ nav li:hover{
     border-radius: 50px;
     cursor: pointer;
 }
-
+.nav{
+    border: 90px red 2px;
+}
 nav{
+    position: fixed;
      display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,12 +56,18 @@ nav{
     color: white;
     width: 95%;
     margin: auto;
+    margin-top: 0;
     border-radius: 50px;
     font-size: 15px;
-    margin-top: 10px;
     padding: 10px;
+    top: 0;
+    z-index: 5;
+   
 }
 
+.hero-section{
+    margin-top: 50px;
+}
 
 .hero-text{
     text-align: center;
@@ -1031,6 +1041,7 @@ font-weight: none;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  padding-bottom: 0;
 
   
 }
@@ -1044,6 +1055,7 @@ font-weight: none;
   transform: translateX(-50%);
   border-left: 2px dashed #bdbdbd;
   z-index: 0;
+
 }
 
 .step {
@@ -1058,9 +1070,10 @@ font-weight: none;
 .step::before {
   content: "";
   position: absolute;
-  inset: -6px;
+  inset: -3px;
   border-radius: 50%;
   border: 2px dotted #bdbdbd;
+  box-shadow: 0 0 3px 6px rgb(247, 204, 204);
 }
 
 .step.active {
@@ -1151,10 +1164,8 @@ font-weight: none;
     font-size: 8px;
     color: red;
     padding-right: 1px;
-   
 }
 
-    
 }
 
 
