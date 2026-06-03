@@ -1130,10 +1130,15 @@ font-weight: none;
 }
 
 
-/* .row .box-1{
-    align-self: start;
-    border: 1px red solid;
-} */
+#section3 #hire2{
+margin-top: 10px;
+border: red 1px solid;
+width: 60px;
+padding:5px 5px;
+border-radius: 20px;
+text-align: center;
+color: red;
+}
 .row .box-3{
     align-self: start;
     padding: 10px;
