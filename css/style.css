@@ -1202,6 +1202,23 @@ background-color: white;
    
 }
 
+#section2 #work-1 div small{
+        color: red;
+        font-size:8px;
+}
+#section2 #work-1 div p{
+      
+        font-size:8px;
+}
+
+#section2 #work-2 div small{
+        color: red;
+        font-size:8px;
+}
+#section2 #work-2 div p{
+        font-size:8px;
+}
+
 }
 
 
